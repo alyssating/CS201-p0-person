@@ -9,12 +9,12 @@
 
 ## Goals
 
-* To create a simple Java class and modify two driver programs to understanding of classes, methods, and instance variables.
-* To learn about running Java programs using the IntelliJ IDE
+* To practice the workflow of a project in CompSci201
+* To see, edit, and run a multi-file Java program
+* To create a Java class from scratch that is used by other Java classes
+* To read data from a file in Java
+* To practice introductory object-oriented programming
 * To learn about using Git for project management.
-* To create a text file that is read by a Java program.
-* To run programs that make post and get requests to a REST-ful webservice.
-* To learn about CompSci201 workflow for assignments: Git, Gradescope, helper hours.
 
 
 ## Starter Code and Using Git
