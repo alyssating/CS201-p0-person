@@ -34,30 +34,19 @@
 
 We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](https://coursework.cs.duke.edu). All code for classwork will be kept here. Git is software used for version control, and GitLab is an online repository to store code in the cloud using Git.
 
-[This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding.
+[This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding. We recommend that you read and follow the directions carefully this first time working on a project! While coding, we recommend that you periodically (perhaps when completing a method or small section) push your changes as explained in Section 5.
 
-
-1. What this means is that you should login to https://coursework.cs.duke.edu. 
-2. Visit the repository for this project: https://coursework.cs.duke.edu/201fall21/P0-Person201/ and fork it.
-3. Clone the repository using a terminal and the command line as described in detail (alternatively you can use IntelliJ).
-
-**_We strongly recommend that after finishing coding or about every hour, you push your changes to the repo as explained in Part 2 of [this document][Using IntelliJ, Gradescope, and Git]._**
-</details>
 
 ## Developing the classes in Project P0: Person201
-<details>
-<summary>
-Click to Expand Developing Classes in Project
-</summary>
 
-When you fork and clone the project, you'll be working primarily within the src folder with .java files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below in answering the questions in the analysis document you submit with this and every 201 project. For this project, the analysis will be done in the [P0 Reflect][P0 Reflect] document for the project.
+When you fork and clone the project, you'll be working primarily within the src folder with .java files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below in answering the questions in the analysis document you submit with this and every 201 project. For this project, the analysis will be done in the reflect document linked at the end of this readme.
 
 
 ### Run `Person201Driver.java` and change `Person201.java`
 <details>
 <summary>Initial Runs and Changes</summary>
 
-First run the main method in `Person201Driver.` (Refer to [this document][Using IntelliJ, Gradescope, and Git] for how to run a Java class). The output of the program will be:
+First run the main method in `Person201Driver.` The output of the program should be:
 
 ```
 no-name woto @ 35.9312N 79.0058W
@@ -67,7 +56,7 @@ name woto
 name woto
 ```
 
-Open `Person201.java` in the IntelliJ editor, and look at each of the three `//TODO: change here` comments in the `Person201.java` class. Fix the code so that when the same `Person201Driver` main program is run the output is as shown below:
+Next, open `Person201.java` in the VS Code editor, and look at each of the three `//TODO: change here` comments in the `Person201.java` class. Fix the code so that when the same `Person201Driver` main program is run the output is as shown below:
 
 ```
 Owen woto @ 35.9312N 79.0058W
@@ -139,13 +128,12 @@ Run the program and note the last name and the number of names printed to answer
 <summary>Creating and running a new class</summary>
 
 
-In the `src` folder create a new Java class named `Person201Solo` that has only a `public static void main method` that allows the program to run (the `main` method is the launch point for all Java programs when they are executed). See `Person201Driver` for details and an example of a `main` method. In the new `main` method, you should define a `Person201` object as shown below and print using `System.out.println(person)` so that the main method has two statements.
+In the `src` folder create a new Java class named `Person201Solo` that has only a `public static void main(String[] args) method` that allows the program to run (the `main` method is the launch point for all Java programs when they are executed). See `Person201Driver` for details and an example of a `main` method. In the new `main` method, you should define a `Person201` object as shown below and print using `System.out.println(person)` so that the main method has two statements.
 
 ```
 Person201 person = new Person201("Sam", -77.846, 166.668, "cold");
 System.out.println(person);
 ```
-</details>
 </details>
 
 ### Post and Get using a RESTfull service:
