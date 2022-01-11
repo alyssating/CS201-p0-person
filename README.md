@@ -89,10 +89,7 @@ Gelareh affective @ 33.89S 151.2E
 total # 3
 ```
 
-You'll then need to Run `Person201Scanner`. You can do this by either 
-1. Right clicking on the file 
-as seen here: ![Selecting the file to run in IntelliJ](./p0-figures/P0-SelectFile.png) and then moving your cursor to the Run option. ![Running selected file in IntelliJ](./p0-figures/P0-RunningSelectedFile.png)
-2. Go to the Run menu in the top toolbar ![Run menu in IntelliJ](./p0-figures/P0-RunMenu.png) and use the small sub-menus to specify `Person201Scanner`. Then you'll be able to toggle between `Person201Driver` and `Person201Scanner` using the Run menu or the shortcut above the edit panes with the small green arrow that's shown below.
+You'll then need to Run `Person201Scanner`.
 
 You should edit the `main` method of `Person201Scanner.java` so that the file `data/large.txt` is used as the source of data. This data file includes a random set of names, locations, and words from several sources. You should see 97 different names, phrases and latitude/longitude locations.
 </details>
