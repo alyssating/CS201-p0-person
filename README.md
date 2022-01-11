@@ -20,10 +20,6 @@
 
 
 ## Goals
-<details>
-<summary>
-Click to Expand Goals of the PRoject
-</summary>
 
 * To create a simple Java class and modify two driver programs to understanding of classes, methods, and instance variables.
 * To learn about running Java programs using the IntelliJ IDE
@@ -32,30 +28,14 @@ Click to Expand Goals of the PRoject
 * To run programs that make post and get requests to a REST-ful webservice.
 * To learn about CompSci201 workflow for assignments: Git, Gradescope, helper hours.
 
-</details>
-
-
-## Installing IntelliJ, Git
-<details>
-<summary>
-Click to Expand Installing Software
-</summary>
-
-To do this project, you must have IntelliJ and Git setup on your device. See the [directions][Installing Software for CompSci201] for help getting set up. 
-
-**_You must have installed all software (Java, Git, IntelliJ) mentioned on this guide before proceeding with the rest of the document._**
-
-</details>
 
 ## Starter Code and Using Git
-<details>
-<summary>
-Click to Expand Getting Starter Code with Git
-</summary>
+**_You must have installed all software (Java, Git, VS Code) before you can complete the project._** You can find the [directions for installation here](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/installingSoftware.md).
 
-We'll be using Git and the installation of GitLab at https://coursework.cs.duke.edu. All code for classwork, discussion, and assignments will be accessible via this site.
+We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](https://coursework.cs.duke.edu). All code for classwork will be kept here. Git is software used for version control, and GitLab is an online repository to store code in the cloud using Git.
 
-**_Now, you should fork and clone the P0 repo using the instructions in Part 1 of [this document](https://docs.google.com/document/d/1dlEwDwiIyEQFxXOHS_zY-Qojx4djl4p2Ud16qpeb7gY/edit?usp=sharing)._**
+[This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding.
+
 
 1. What this means is that you should login to https://coursework.cs.duke.edu. 
 2. Visit the repository for this project: https://coursework.cs.duke.edu/201fall21/P0-Person201/ and fork it.
