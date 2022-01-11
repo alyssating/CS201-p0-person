@@ -16,9 +16,6 @@
 - [Grading](#grading)
 
 
-# Project 0: Person201
-
-
 ## Goals
 
 * To create a simple Java class and modify two driver programs to understanding of classes, methods, and instance variables.
