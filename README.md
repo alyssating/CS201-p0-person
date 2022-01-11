@@ -125,17 +125,6 @@ System.out.println(person);
 ```
 </details>
 
-### Post and Get using a RESTfull service:
-<details>
-<summary>Connecting to a RESTful web service</summary>
-
-Run the program `PeopleDownloader.java` and you'll see information for many Person201 objects printed, these are obtained from a RESTful web service, details don't matter for this program, but the number of people printed will change as more students in 201 run the next program in this section, `PostPerson.java`. You should run `PeopleDownloader.java` and then make a change by adding one line to print the number of lines printed, which is the value of `pa.length` -- you can add a print statement after the `for` loop. Make a note of this number in the [P0 reflect][P0 reflect] form.
-
-Then modify the program `PostPerson.java`  by changing line 48 in the `main` method so that the `Person201 p` variable represents information about you. Include your name, a phrase you'd like associated with yourself, and the latitude and longitude of the town you consider either where you grew up, or where you went to high school before Duke. You'll need to look up the these latitude and longitude values using a search engine. After you modify the program, **run** it so that the informatoon you created is posted ot the webservice for the class. You can verify that this ran succesfully by runing `PeopleDownloader.java` again and seeing your information printed.
-
-You're then ready to submit the project for grading. You'll also need to answer the questions in the [P0 reflect document][P0 Reflect].
-</details>
-
 
 ## Submission and Grading
 You will submit the assignment on Gradescope. You can access Gradescope through the tab on Sakai. The [project workflow writeup](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) explains the how to submit your project in detail. In particular, you cannot submit unless all your code has been pushed to your Git repository on coursework. Be sure to push changes often and be sure your final program is in your Git repository before you submit it for autograding on Gradescope. Please take note that changes/commits on GitLab are NOT automatically synced to Gradescope. You are welcome to submit as many times as you like, only the most recent submission will count for a grade.
