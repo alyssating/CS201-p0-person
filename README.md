@@ -3,10 +3,8 @@
 ## Outline
 - [Goals](#goals)
 - [Starter Code and Using Git](#starter-code-and-using-git)
-- [Developing the classes in Project P0: Person201](#developing-the-classes-in-project-p0-person201)
-- [Submission](#submission)
-- [Reflect](#reflect)
-- [Grading](#grading)
+- [Developing and Running the classes in Project P0: Person201](#developing-and-running-the-classes-in-project-p0-person201)
+- [Submission and Grading](#submission-and-grading)
 
 
 ## Goals
@@ -24,7 +22,7 @@
 
 We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](https://coursework.cs.duke.edu). All code for classwork will be kept here. Git is software used for version control, and GitLab is an online repository to store code in the cloud using Git.
 
-[This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding. We recommend that you read and follow the directions carefully this first time working on a project! While coding, we recommend that you periodically (perhaps when completing a method or small section) push your changes as explained in Section 5.
+**[This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding.** We recommend that you read and follow the directions carefully this first time working on a project! While coding, we recommend that you periodically (perhaps when completing a method or small section) push your changes as explained in Section 5.
 
 
 ## Developing and Running the classes in Project P0: Person201
@@ -138,47 +136,14 @@ Then modify the program `PostPerson.java`  by changing line 48 in the `main` met
 You're then ready to submit the project for grading. You'll also need to answer the questions in the [P0 reflect document][P0 Reflect].
 </details>
 
-</details>
 
-## Checklist
-<details>
-<summary>
-Click to Expand Checklist for submission
-</summary>
+## Submission and Grading
+You will submit the assignment on Gradescope. You can access Gradescope through the tab on Sakai. The [project workflow writeup](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) explains the how to submit your project in detail. In particular, you cannot submit unless all your code has been pushed to your Git repository on coursework. Be sure to push changes often and be sure your final program is in your Git repository before you submit it for autograding on Gradescope. Please take note that changes/commits on GitLab are NOT automatically synced to Gradescope. You are welcome to submit as many times as you like, only the most recent submission will count for a grade.
 
-Before you submit to Gradescope, check that you've done each of the following:
-
-- Modify `Person201.java` by changing code in three places.
-- Verify that running `Person201Driver.java` matches the expected output after modifying `Person201.java`
-- Add a new `Person201` object in the `Person201Driver.java` program and verify that running `Person201Driver.java` matches the expected output after modifying `Person201Driver.java`.
-- Run `Person201Scanner.java` with the data file `data/large.txt`.
-- Run `Person201Scanner.java` with a web source via a specified URL.
-- Create a new class `Person201Solo` with a `main` method that has two statements.
-- Run the program `PostPerson` to post new information and `PeopleDownloader` to get the information from a webservice.
-</details>
-
-## Submission
-<details>
-<summary>
-Click to Expand How to Submit
-</summary>
-
-You will submit the assignment on Gradescope. [Here][Using IntelliJ, Gradescope, and Git] is a document that describes the submission process in detail. 
-
-You can login to https://www.gradescope.com (make sure to login with “School Credentials”), find project P0 and submit your code. **You CANNOT submit unless all your code has been pushed to your Git repository on coursework.** So, be sure to push changes often and be sure your final program is in your Git repository before you get it graded on Gradescope.
-
-You will need to resubmit your entire project on Gradescope every time after you make changes that you wish to be graded. Please take note that changes/commits on GitLab are NOT automatically synced to Gradescope.
-</details>
+After completing the coding portion, fill out the reflect form here: **TODO: ADD REFLECT FORM**
 
 
-## Reflect
-
-After completing the coding portion, fill out the reflect form here: [P0 Reflect][P0 Reflect]
-
-## Grading
-<details>
-<summary>Click for Grading Summary</summary>
-
+### Grading
 Your submission will be graded by the following rubric:
 
 | Class Modified | Points |
@@ -186,15 +151,6 @@ Your submission will be graded by the following rubric:
 | Person201 | 4 |
 | Person201Driver | 4 |
 | Person201Solo | 4 |
-| Webservice | 4 |
 | Reflect form | 4 |
 
-</summary>
-
-<!-- ALL LINKS USED IN THIS DOCUMENT -->
-
-[Installing Software for CompSci201]: https://docs.google.com/document/d/1dlEwDwiIyEQFxXOHS_zY-Qojx4djl4p2Ud16qpeb7gY/edit?usp=sharing
-
-[Using IntelliJ, Gradescope, and Git]:https://docs.google.com/document/d/1dlEwDwiIyEQFxXOHS_zY-Qojx4djl4p2Ud16qpeb7gY/edit?usp=sharing
-
-[P0 Reflect]:https://docs.google.com/forms/d/e/1FAIpQLSdfMS68L3plwZuLtXlr1Jbwudv6L15zhx9QShlh3yoabMH77w/viewform
+The first four categories will be autograded on Gradescope, the reflect form will be graded by teaching assistants.
