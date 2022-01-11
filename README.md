@@ -2,15 +2,8 @@
 
 ## Outline
 - [Goals](#goals)
-- [Installing IntelliJ, Git](#installing-intellij-git)
 - [Starter Code and Using Git](#starter-code-and-using-git)
 - [Developing the classes in Project P0: Person201](#developing-the-classes-in-project-p0-person201)
-- [Run **Person201Driver.java** and change **Person201.java**](#run-person201driverjava-and-change-person201java)
-- [Running **Person201Scanner** and changing Data Source](#running-person201scanner-and-changing-data-source)
-- [Running **Person201Scanner** from a Web Source](#running-person201scanner-from-a-web-source)
-- [Create and Run a New Java Class **Person201Solo.java**](#create-and-run-a-new-java-class-person201solojava)
-- [Post and Get using a RESTful service](#post-and-get-using-a-restfull-service)
-- [Checklist](#checklist)
 - [Submission](#submission)
 - [Reflect](#reflect)
 - [Grading](#grading)
@@ -34,10 +27,11 @@ We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](ht
 [This document details the workflow](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) for downloading the starter code for the project, updating your code on coursework using Git, and ultimately submitting to Gradescope for autograding. We recommend that you read and follow the directions carefully this first time working on a project! While coding, we recommend that you periodically (perhaps when completing a method or small section) push your changes as explained in Section 5.
 
 
-## Developing the classes in Project P0: Person201
+## Developing and Running the classes in Project P0: Person201
 
 When you fork and clone the project, you'll be working primarily within the src folder with .java files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below in answering the questions in the analysis document you submit with this and every 201 project. For this project, the analysis will be done in the reflect document linked at the end of this readme.
 
+The following subsections sections detail the specific action items you should take while completing this project. To see the details for a section, just click the small arrow to expand the information, or click the small arrow again to collapse those details.
 
 ### Run `Person201Driver.java` and change `Person201.java`
 <details>
@@ -117,7 +111,7 @@ Then change the assignment to variable list so that it is:
 ```bash
 Person201[] list = readURL(url);
 ```
-Run the program and note the last name and the number of names printed to answer the questions in the [P0 reflect document][P0 Reflect].
+Run the program and note the last name and the number of names printed to answer the questions in the reflect form linked at the end of this document.
 </details>
 
 ### Create and Run a New Java Class: **Person201Solo.java**
