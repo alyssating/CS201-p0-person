@@ -106,7 +106,7 @@ Then change the assignment to variable list so that it is:
 ```bash
 Person201[] list = readURL(url);
 ```
-Run the program and note the last name and the number of names printed to answer the questions in the reflect form linked at the end of this document.
+Run the program and note the last name and the number of names printed to answer the questions in the reflect form linked at the end of this document. Refer to [this guide](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/APTWorkflow.md#running-your-code) for more on running programs.
 </details>
 
 ### Create and Run a New Java Class: **Person201Solo.java**
