@@ -27,7 +27,7 @@ We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](ht
 
 ## Developing and Running the classes in Project P0: Person201
 
-When you fork and clone the project, you'll be working primarily within the src folder with .java files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below in answering the questions in the analysis document you submit with this and every 201 project. For this project, the analysis will be done in the reflect document linked at the end of this readme.
+When you fork and clone the project, you'll be working primarily within the src folder with .java files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below. You will need some information from the output to complete the reflect document linked at the end of this document.
 
 The following subsections sections detail the specific action items you should take while completing this project. To see the details for a section, just click the small arrow to expand the information, or click the small arrow again to collapse those details.
 
@@ -126,7 +126,7 @@ System.out.println(person);
 ## Submission and Grading
 You will submit the assignment on Gradescope. You can access Gradescope through the tab on Sakai. The [project workflow writeup](https://coursework.cs.duke.edu/201-public-documentation/resources-201/-/blob/main/projectWorkflow.md) explains the how to submit your project in detail. In particular, you cannot submit unless all your code has been pushed to your Git repository on coursework. Be sure to push changes often and be sure your final program is in your Git repository before you submit it for autograding on Gradescope. Please take note that changes/commits on GitLab are NOT automatically synced to Gradescope. You are welcome to submit as many times as you like, only the most recent submission will count for a grade.
 
-After completing the coding portion, fill out the reflect form here: **TODO: ADD REFLECT FORM**
+After completing the coding portion, fill out the [reflect form here](https://forms.office.com/Pages/ResponsePage.aspx?id=TsVyyzFKnk2xSh6jbfrJTErNjWEU70pGg_ytfEVEPi5UQkhYTkVGMVROUFdWR1VPOE5DRk5FRkowRC4u).
 
 
 ### Grading
