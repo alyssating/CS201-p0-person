@@ -27,7 +27,7 @@ We'll be using Git and the installation of GitLab at [coursework.cs.duke.edu](ht
 
 ## Developing and Running the classes in Project P0: Person201
 
-When you fork and clone the project, you'll be working primarily within the `src` folder with `.java` files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You'll also run two programs (`PostPerson.java`, `PeopleDownloader.java`) as described below. You will need some information from the output to complete the reflect document linked at the end of this document.
+When you fork and clone the project, you'll be working primarily within the `src` folder with `.java` files beginning with `Person201`. Your goal is to modify three programs/classes (`Person201.java`, `Person201Driver.java`, and `Person201Scanner.java`) and create a new program (`Person201Solo.java`) to generate the desired output. You will need some information from the output to complete the reflect document linked at the end of this document.
 
 The following subsections sections detail the specific action items you should take while completing this project. To see the details for a section, just click the small arrow to expand the information, or click the small arrow again to collapse those details.
 
